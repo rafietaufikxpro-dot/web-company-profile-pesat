@@ -1,0 +1,494 @@
+* {
+  font-family: poppins;
+  text-decoration: none;
+  list-style-type: none;
+  color: #687279;
+  font-weight: 500;
+  font-size: 15px;
+  /* justify-content: center; */
+}
+.navbar {
+  background-color: white;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.navbar {
+  padding: 05px 0px 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contactus {
+  background-color: #f1a204;
+  color: white;
+  border-radius: 5px;
+  padding: 12px;
+}
+.home {
+  color: #f1a204;
+}
+.menu ul {
+  list-style-type: none;
+  display: flex;
+  padding: 25px 100px 0px 0px;
+}
+.menu ul li {
+  margin: 20px;
+  color: black;
+}
+.hero {
+  width: 85%;
+  display: flex;
+  margin: 25px 0px 0px 5%;
+  gap: 100px;
+}
+.kenapa_navbar {
+  margin-top: 07%;
+}
+.program {
+  margin-top: 03%;
+}
+.program li {
+  padding-left: 5%;
+}
+h1 {
+  color: #0c084c;
+  font-weight: 600;
+  font-size: 50px;
+}
+h3 {
+  color: #f1a204;
+  font-weight: 500;
+  font-size: 16px;
+}
+.sombong {
+  color: #0c084c;
+}
+span {
+  font-weight: 400;
+}
+
+.kiri ul {
+  padding: 0% 0% 0% 0%;
+}
+.kanan {
+  background-color: white;
+}
+.tombol {
+  display: flex;
+  margin-left: 5%;
+}
+.program-btn {
+  border-style: solid;
+  border-width: 2px;
+  padding: 10px;
+  border-radius: 5px;
+  color: #0c084c;
+  background-color: white;
+}
+
+.daftar-btn {
+  border-style: solid;
+  border-width: 2px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f1a204;
+  color: white;
+}
+.kerja-alumni {
+  color: #0c084c;
+  font-weight: 600;
+  font-size: medium;
+  margin: 50px 0px 0px 5%;
+}
+a:hover {
+  color: #f1a204;
+}
+.perusahan-alumni {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+i {
+  color: #f1a204;
+}
+.daftar-btn i {
+  color: white;
+}
+.perusahan-alumni .dll {
+  color: #0c084c;
+}
+b {
+  font-weight: 900;
+  color: #0c084c;
+}
+.kenapa_navbar {
+  text-align: center;
+}
+
+.kenapa_navbar span {
+  font-weight: 400;
+  color: #0c084c;
+  font-size: 50px;
+}
+.kenapa_navbar .deks1 {
+  color: #0c084c;
+}
+.program {
+  display: flex;
+  justify-content: center;
+  justify-content: space;
+}
+.program1 {
+  justify-content: center;
+  width: 25%;
+  border-radius: 4%;
+  background-color: rgba(236, 236, 236, 0.486);
+  margin: 0px 20px 0px 0px;
+}
+.program1 ul {
+  padding-top: 5%;
+  padding-bottom: 15%;
+}
+.program1 h2 {
+  font-size: 18px;
+  color: #111516;
+}
+.program2 {
+  justify-content: center;
+  width: 25%;
+  border-radius: 4%;
+  background-color: rgb(255, 230, 234);
+  margin: 0px 20px 0px 0px;
+}
+.program2 h2 {
+  font-size: 18px;
+  color: #111516;
+  text-align: center;
+  padding-top: 5%;
+}
+.program2 ul {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.program3 {
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  border-radius: 4%;
+  background-color: rgba(236, 236, 236, 0.486);
+}
+.program3 img {
+  justify-content: center;
+  padding-left: 5%;
+}
+.program h2 {
+  font-size: 18px;
+  color: #111516;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 0%;
+}
+.judul {
+  margin-top: 50px;
+  text-align: center;
+}
+/* jurusan */
+.jurusan {
+  font-family: poppins;
+  display: flex;
+  justify-content: center;
+  margin: 0px 140px 0px 140px;
+}
+.jurusan .tkj {
+  background-color: #ededed;
+  color: rgb(108, 57, 0);
+  font-size: 18px;
+  font-weight: bold;
+  padding: 20px;
+  margin: 10px;
+  margin-right: 10px;
+  border-radius: 15px;
+}
+.jurusan .tkj .tombolTkj {
+  background-color: #f1a204;
+  color: #ededed;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.jurusan .tkj .descTkj {
+  color: rgb(119, 119, 119);
+  font-weight: 400;
+}
+.donlotTkj {
+  background-color: #0c084c;
+  color: #ededed;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 45px;
+}
+/* dkv */
+.jurusan .dkv .tombolDkv {
+  background-color: #f1a204;
+  color: #ededed;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.descDkv {
+  color: rgb(119, 119, 119);
+  font-weight: 400;
+}
+.donlotDkv {
+  background-color: #0c084c;
+  color: #ededed;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 45px;
+  text-align: center;
+}
+.jurusan .dkv {
+  background-color: #ededed;
+  color: rgb(108, 57, 0);
+  font-size: 18px;
+  font-weight: bold;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 15px;
+}
+/* rpl */
+.jurusan .rpl {
+  background-color: #ededed;
+  color: rgb(95, 57, 0);
+  font-size: 18px;
+  font-weight: bold;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 3px;
+}
+.jurusan .rpl .tombolRpl {
+  background-color: #f1a204;
+  color: #ededed;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.descRpl {
+  color: rgb(119, 119, 119);
+  font-weight: 400;
+}
+.donlotRpl {
+  background-color: #0c084c;
+  color: #ededed;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 45px;
+}
+.jurusan .rpl {
+  background-color: #ededed;
+  color: rgb(108, 57, 0);
+  font-size: 18px;
+  font-weight: bold;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 15px;
+}
+.portofios {
+  text-align: center;
+  margin-top: 07%;
+  width: 72%;
+  margin: auto;
+}
+.portofios h1 {
+  font-weight: 500;
+  font-size: 40px;
+}
+.portofios span {
+  font-size: larger;
+  color: #0c084c;
+  font-weight: 700;
+}
+.portofios h4 {
+  color: #0c084c;
+  font-weight: 400;
+}
+.container .gallery {
+  max-width: 1100px;
+  margin: auto;
+  box-sizing: border-box;
+}
+.bungkus {
+  margin-top: 70px;
+}
+.bungkus h1 {
+  text-align: left;
+}
+.bungkus h3 {
+  color: #0c084c;
+  text-align: left;
+}
+.bungkus {
+  display: flex;
+  margin-top: 10%;
+  justify-content: center;
+}
+.bungkus1 {
+  margin-top: 10%;
+  display: flex;
+}
+.bungkus .vidiokanan {
+  margin: 0px 0px 0px 40px;
+}
+.vidiokanan iframe {
+  border-radius: 10px;
+  overflow: hidden;
+}
+.hasiltkj {
+  display: flex;
+}
+.produktkj {
+  margin-right: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.produktkj h3 {
+  text-align: left;
+  font-weight: 600;
+  color: #0c084c;
+  font-size: larger;
+}
+.produktkj p {
+  text-align: left;
+  color: #0c084c;
+  font-size: small;
+  font-weight: 400;
+}
+.lihat {
+  color: #ededed;
+  background-color: #f1a204;
+  padding: 10px;
+  font-size: small;
+  border-radius: 05px;
+}
+.lihat h4 {
+  color: #ededed;
+}
+.produktkj i {
+  color: #ededed;
+}
+.bungkusdeks h3 i {
+  color: #ededed;
+}
+.bungkusdeks .lainnya {
+  padding: 20px;
+  background-color: #0c084c;
+  color: #ededed;
+  border-radius: 10px;
+  width: 230px;
+  margin-top: 20px;
+}
+.bungkusdeks ul i {
+  color: #f1a204;
+}
+.vidioprana iframe {
+  border-radius: 10px;
+  overflow: hidden;
+}
+.vidioprana {
+  gap: 50px;
+  margin-right: 40px;
+}
+.bungkus1 h3 {
+  color: #0c084c;
+  font-weight: 600;
+  text-align: left;
+}
+.bungkus1 p,
+.vidiokanan p {
+  color: #0c084c;
+  font-weight: 300;
+  text-align: left;
+}
+.bungkus1 b,
+.vidiokanan b {
+  color: #0c084c;
+  font-weight: 600;
+  justify-content: left;
+}
+
+.bungkus1 .bungkusdeks1 h3 {
+  font-size: small;
+}
+.bungkus1 .bungkusdeks1 {
+}
+
+.bungkusdeks1 ul {
+  padding-top: 05%;
+  padding-left: 05%;
+}
+.bungkusdeks1 .lainnya {
+  padding: 20px;
+  background-color: #0c084c;
+  color: #ededed;
+  border-radius: 10px;
+  width: 230px;
+  margin-top: 20px;
+}
+.bungkusdeks1 h3 i {
+  color: #ededed;
+}
+.bungkusdeks1 ul i {
+  color: #f1a204;
+}
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: 600;
+}
+.filter-buttons {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.filter-btn {
+  border: 1px solid #ddd;
+  background: none;
+  color: #555;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  font-weight: 500;
+}
+.filter-btn.active,
+.filter-btn:hover {
+  background-color: #ff6b00;
+  color: white;
+  border-color: #ff6b00;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.gambar {
+  border-radius: 12px;
+  width: 30%;
+  overflow: hidden;
+  /* transform: scale(1); */
+  transition: all 0.5s ease;
+}
+.gambar img {
+  width: 100%;
+  height: 100%;
+}
+.gambar:hover {
+  transform: scale(1.05);
+}
