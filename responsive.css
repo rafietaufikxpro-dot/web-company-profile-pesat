@@ -1,0 +1,239 @@
+@media only screen and (max-width: 768px) {
+  body,
+  html {
+    overflow-x: hidden !important;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  .container {
+    width: 100% !important;
+    padding: 0 1rem !important;
+  }
+
+  .navbar,
+  .hero,
+  .tombol,
+  .alumni,
+  .perusahan-alumni,
+  .kenapa_navbar,
+  .program,
+  .jurusan,
+  .portofios,
+  .bungkus,
+  .bungkus1,
+  .hasiltkj,
+  .container_gallery,
+  .motiondecs,
+  .bungkusrpl,
+  .gambarbawah,
+  .kompentensi,
+  .kompentensidecs0,
+  .komdecs,
+  .fotokomdecs0,
+  .downkomdecs,
+  .umrohdecs0,
+  .asramadecs0,
+  .daftardecsatas,
+  .daftardecs0 {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding: 1.5rem 0 !important;
+  }
+
+  h1 {
+    font-size: 1.75rem !important;
+    text-align: center !important;
+  }
+  h2 {
+    font-size: 1.5rem !important;
+    text-align: center !important;
+  }
+  h3 {
+    font-size: 1.1rem !important;
+    line-height: 1.5 !important;
+  }
+  h4 {
+    font-size: 1rem !important;
+  }
+  p,
+  li {
+    font-size: 1rem !important;
+    line-height: 1.6 !important;
+  }
+  ul {
+    padding-left: 1.5rem !important;
+  }
+
+  .navbar {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .menu ul {
+    flex-direction: column !important;
+    width: 100% !important;
+    text-align: center !important;
+    padding: 0 !important;
+  }
+  .menu ul li {
+    margin: 0.5rem 0 !important;
+  }
+
+  .hero {
+    display: flex !important;
+    flex-direction: column !important;
+    text-align: center !important;
+  }
+  .kiri,
+  .kanan {
+    width: 100% !important;
+  }
+  .kanan img {
+    max-width: 100% !important;
+    height: auto !important;
+    margin-bottom: 1rem;
+  }
+
+  .tombol {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 1rem !important;
+  }
+  .program-btn,
+  .daftar-btn {
+    width: 90% !important;
+    text-align: center !important;
+    padding: 1rem !important;
+  }
+
+  .perusahan-alumni {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 1rem !important;
+  }
+  .perusahan-alumni img {
+    width: 28% !important;
+    height: auto !important;
+    max-height: 50px !important;
+    object-fit: contain !important;
+  }
+  .perusahan-alumni h3 {
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  .program,
+  .jurusan {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 2rem !important;
+  }
+  .program1,
+  .program2,
+  .program3,
+  .tkj,
+  .dkv,
+  .rpl {
+    width: 100% !important;
+  }
+  .program img,
+  .program2 img,
+  .program3 img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  .bungkus,
+  .bungkus1,
+  .bungkusrpl {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 2rem !important;
+  }
+  .hasiltkj,
+  .gambarbawah {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
+  }
+  .produktkj img,
+  .gambarbawahdecs img {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .gallery {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 0.5rem !important;
+  }
+  .filter-buttons {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    gap: 0.5rem !important;
+  }
+
+  .kompentensidecs0,
+  .fotokomdecs0,
+  .umrohdecs0,
+  .asramadecs0,
+  .daftardecs0 {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 2rem !important;
+  }
+  .kompentensidecs,
+  .fotokomdecs1 {
+    width: 100% !important;
+  }
+  .fotokomdecs1 {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 1rem !important;
+  }
+  .listdecs0 {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .listkiri,
+  .listkanan {
+    width: 100% !important;
+  }
+
+  iframe,
+  img,
+  video {
+    max-width: 100% !important;
+    height: auto !important;
+    margin: 1rem 0 !important;
+  }
+
+  .vidiokanan,
+  .vidioprana,
+  .vidiomotion,
+  .asramadecskiri,
+  .mapdecs0 {
+    position: relative !important;
+    overflow: hidden !important;
+    width: 100% !important;
+    padding-top: 56.25% !important;
+  }
+  .vidiokanan iframe,
+  .vidioprana iframe,
+  .vidiomotion iframe,
+  .asramadecskiri iframe,
+  .mapdecs0 iframe {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    border: 0 !important;
+  }
+}
